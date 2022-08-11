@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>UAE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="icon" href="src/apple.png" type="image/x-icon">
+</head>
+<body>
+        <header id="header" class="fixed-top">
+
+            <navbar class="navbar navbar-expand-lg navbar-dark" style="background: black">
+                <div class="container">
+                    <a href="#" class="navbar-brand">Web Dev Blog</a>
+                    <button  class="btn btn-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                        <ul class="navbar-nav mr-auto mb-3 mb-lg-0">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link collapse-toggle" data-bs-target="#navDrop" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseWidthExample">
+                                    Dropdown
+                                </a>
+                                <ul class="collapse collapse-horizontal text-light m-1 list-unstyled" id="navDrop" >
+                                    <li><a href="https://www.youtube.com/watch?v=3EXMbY930QM" class="dropdown-item" target="_blank">Mercedes CLS 63</a></li>
+                                    <li><a href="https://yandex.ru/video/preview/?filmId=10028236019472575320&suggest_reqid=786204863165393769174828938770655&text=maclaren+p1" class="dropdown-item" target="_blank">McLaren p1</a></li>
+                                    <li><a href="https://yandex.ru/video/preview/?filmId=15913082672414731238&suggest_reqid=786204863165393769178452444357743&text=call+of+duty+modern+warfare+2+trailer" class="dropdown-item" target="_blank">Call of Duty</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form action="#" class="d-flex m-2">
+                            <input type="search" placeholder="Search" class="form-control mr-2 ">
+                            <button type="submit" class="btn btn-outline-dark ml-3" id="button">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </navbar>
+
+        </header>
+    
+        <div class="mt-2">
+          
+
+            <div class="dropdown d-flex justify-content-end">
+                <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                  Info
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <li><button class="dropdown-item" type="button"><a class="text-decoration-none text-dark" href="" target="_blank"></a></button></li>
+                  <li><button class="dropdown-item" type="button"><a class="text-decoration-none text-dark" href="" target="_blank"></a></button></li>
+                  <li><button class="dropdown-item" type="button"><a class="text-decoration-none text-dark" href="" target="_blank"></a></button></li>
+                </ul>
+              </div>
+
+            <div class="mt-4 fs-6 d-inline-fixed container">
+                <h5>Author:</h5><p>Abdurakhimov Sunnat</p>
+            </div>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide mb-5 container" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="header text-center"><h1>Boom!!!!</h1></div>
+                  <div class="carousel-item active" data-bs-interval="10000" id="1">
+                    <img src="src/d80f359ed57ea256d318124dd1d70e9b-1400.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="text-light">Mercedes CLS 63</h5>
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000" id="2">
+                    <img src="src/mclaren_p1_mclaren_sports_car_129637_4096x2304.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="text-danger text-uppercase">McLaren p1</h5>
+                      <p class="text-white">It's my dream</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" id="3">
+                    <img src="src/620eb6c62916c.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="text-white text-uppercase">Call of Duty</h5>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+
+              <footer class="text-light pt-5  d-none-flex mt-5" id="footer">
+                    <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h3>Product</h3>
+                            <hr>
+                            <ul class="list-unstyled text-secondary">
+                                <li>Theme Design</li>
+                                <li>Plugin Design</li>
+                                <li>Wordpress</li>
+                                <li>HTML Template</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h3>Useful Links</h3>
+                            <hr>
+                            <ul class="list-unstyled text-secondary">
+                                <li>Blog</li>
+                                <li>Pricing</li>
+                                <li>Sales</li>
+                                <li>Services</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h3>Product</h3>
+                            <hr>
+                            <ul class="list-unstyled text-secondary">
+                                <li>Career</li>
+                                <li>Privacy & policy</li>
+                                <li>Terms</li>
+                                <li>Condition</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="text-md-end">PROJECTS<span class="text-primary">PRO</span></h3>
+                            <hr>
+                            <ul class="list-unstyled text-secondary text-md-end mt-4">
+                                <li> Yashnaobod Yangi O'zbekiston 8A uy </li>
+                                <li>Email:ProjectsPro233@gmail.com</li>
+                                <li>Phone Number:+998 55 255 15 25</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <!--social link part -->
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h2>Call Us Today</h2>
+                                <h1>+998 55 255 05 55</h1>
+                            </div>
+                            <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                                <button type="submit" class="bg-primary py-2 px-3">Follow Us</button>
+                                <div>
+                                    <a href="https://www.apple.com" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+                                        <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z"/>
+                                        <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282z"/>
+                                      </svg></a>
+                                    <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram mx-1"></i></a>
+                                    <a href="https://www.youtube.com/" target="_blank"><i class="bi bi-youtube mx-1"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="img-fluid mb-2" src="https://arateg.com/static/images/payment-solution-blog_1920.jpg" alt="">
+                            </div>
+                        </div>
+                  </div>
+
+                  <!-- copyright part -->
+                  <div class="bg-opacity-50 py-2 bg-dark d-flex" id="copy">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-md-6 text-center">
+                                  <small>Copyright &copy; 2022 Frontend Bootcamp</small>
+                              </div>
+                              <div class="col-md-6 text-center">
+                                  <small class="text-md-end">USER LICENSE AGREEMENT PRIVACY POLICY TERMS CONDITION</small>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </footer>
+        <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

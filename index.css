@@ -1,0 +1,23 @@
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #ee0a0a;
+}
+
+.btn.btn-outline-dark{
+    background: black;
+    border-color: lightblue;
+    color:white;
+}
+
+.btn.btn-outline-dark:hover {
+    color: #ee0a0a;
+}
+#footer{
+    background: black;
+}
+#copy{
+    
+}
